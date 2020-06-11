@@ -1,1 +1,55 @@
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
 <h1 id="title">Berätta om dina vänner.</h1>
+<p id="description"> En enkät i vilken du listar dina vänner</p>
+<form id="survey-form">
+	
+	<label id="name-label">Name:</label> 
+	<input id="name" type="text" name="name" required placeholder="First name"><br>
+	<label id="email-label">Email:</label> 
+	<input id="email" type="email" name="email" required placeholder="Email"><br>
+	<label id="number-label">Number:</label> 
+	<input id="number" type="number" min="0" max="10" name="000" required placeholder="5"><br>
+	
+	<label for="dropdown">Hur mycket tycker du om dina vänner?</label>
+	<select name="dropdown" id="dropdown">
+ 	<option value="lite">lite</option>
+  	<option value="mellan">mellan</option>
+  	<option value="mycket">mycket</option>
+  	<option value="mest">mest</option>
+	</select><br>
+
+
+	<
+	<input type="radio" id="male" name="gender" value="male">
+	<label for="male">Male</label><br>
+	<input type="radio" id="female" name="gender" value="female">
+	<label for="female">Female</label><br>
+	<input type="radio" id="other" name="gender" value="other">
+	<label for="other">Other</label><br>
+
+	<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+	<label for="vehicle1"> I have a bike</label><br>
+	<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+	<label for="vehicle2"> I have a car</label><br>
+	<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+	<label for="vehicle3"> I have a boat</label><br>
+
+	<textarea placeholder="något annat på ditt hjärta?"></textarea><br>
+
+	<input type="submit" id="submit">
+
+
+</form>
+
+
+
+
+
+ </body>
+ </html>
