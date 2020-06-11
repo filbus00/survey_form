@@ -1,0 +1,16 @@
+body {
+	font-family:sans-serif;
+	padding-left:20%;
+	padding-right:20%;
+}
+label {
+	font-size:18;
+	display:block;
+	padding-bottom:10px;
+}
+input {
+	display:block;
+}
+form {
+	background-color:silver;
+}
